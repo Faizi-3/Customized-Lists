@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Book</title>
+
+  <!--STYLING-->
+
+  <style>
+    /* background image */
+    body{
+      background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=1060&t=st=1705851721~exp=1705852321~hmac=708ce7b1425b97fa270938260ce52ccdcaeb97f334c128f14d0719883cf4aff6);
+    }
+    
+    
+    /* Table styling */
+    .table {
+      width: 75%;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff;
+    }
+
+    /* Row#01 Styling */
+    #row1 {
+      height: 80px;
+    }
+
+    #rc11 {
+      font-size: 50px;
+      text-align: center;
+      font-weight: 900;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* Row#02 Styling */
+    #row2 {
+      height: 50px;
+    }
+
+    #rc21 {
+      font-size: 40px;
+      text-align: right;
+      padding-top: 25px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* Lists Styling */
+    .hide {
+      display: none;
+    }
+
+    .ul1 {
+      list-style-type: none;
+      margin: 15px;
+      padding: 0px;
+      width: 300px;
+      text-align: justify;
+      /* background-color: #333; */
+      text-indent: 10px;
+      position: relative;
+      bottom: 20px;
+    }
+
+    .ul1 li a {
+      text-decoration: none;
+      display: block;
+      color: #fff;
+      font-weight: bold;
+      padding-top: 8px;
+      padding-bottom: 16px;
+
+    }
+
+/* When hovering on a Chapters */
+    .ul1 li a:hover {
+      background-color: #e7e9eb;
+      color: #000;
+      border-radius: 50px;
+    }
+
+/* when hovering a text shown on right side of chapters */
+    #li:hover .hide {
+      background-color: #000;
+      display: inline-block;
+      width: 300px;
+      position: absolute;
+      margin-left: 290px;
+      color: #fff;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--Table Starts-->
+
+  <table class="table">
+
+    <!--Table Row#01-->
+
+    <tr id="row1">
+      <td id="rc11">
+        Web & App Development
+      </td>
+    </tr>
+
+    <!--Table Row#02-->
+
+    <tr id="row2">
+      <td id="rc21">
+        CONTENTS
+      </td>
+    </tr>
+
+  </table>
+
+  <!--Table End-->
+
+
+  <!--List Start-->
+                         
+  <ul class="ul1">
+
+  <!-- Chapter#01 -->
+    <li id="li">
+      <a href="">Chapter 1: Introduction</a>
+      <ol class="hide">
+        <li>About this book</li>
+        <li>How the web works</li>
+        <li>Learning from other pages</li>
+      </ol>
+    </li>
+
+  <!-- Chapter#02 -->
+    <li id="li">
+      <a href="">Chapter 2: Structure</a>
+      <ol class="hide">
+        <li>Understanding structure</li>
+        <li>Learning about markup</li>
+        <li>Tags and elements</li>
+      </ol>
+    </li>
+
+<!-- Chapter#03 -->
+    <li id="li">
+      <a href="">Chapter 3: Text</a>
+      <ol class="hide">
+        <li>Headings and paragraphs</li>
+        <li>Bold, italic, emphasis</li>
+        <li>Structural and semantic markup</li>
+      </ol>
+    </li>
+
+  <!-- Chapter#04 -->
+    <li id="li">
+      <a href="">Chapter 4: Links</a>
+      <ol class="hide">
+        <li>Creating links between pages</li>
+        <li>Linking to other sites</li>
+        <li>Email links</li>
+      </ol>
+    </li>
+
+<!-- Chapter#05 -->
+    <li id="li">
+      <a href="">Chapter 5: Lists</a>
+      <ol class="hide">
+        <li>Numbered lists</li>
+        <li>Bullet lists</li>
+        <li>Definition lists</li>
+      </ol>
+    </li>
+
+<!-- Chapter#06 -->
+    <li id="li">
+      <a href="">Chapter 6: Images</a>
+      <ol class="hide">
+        <li>How to add images to pages</li>
+        <li>Choosing the right format</li>
+        <li>Optimizing images for the web</li>
+      </ol>
+    </li>
+
+<!-- Chapter#07 -->
+    <li id="li">
+      <a href="">Chapter 7: Tables</a>
+      <ol class="hide">
+        <li>How to create tables</li>
+        <li>What information suits tables</li>
+        <li>How to represent complex data in tables</li>
+      </ol>
+    </li>
+
+<!-- Chapter#08 -->
+    <li id="li">
+      <a href="">Chapter 8: Forms</a>
+      <ol class="hide">
+        <li>How to collect information from visitors</li>
+        <li>Different kinds of form controls</li>
+        <li>New HTML5 form controls</li>
+      </ol>
+    </li>
+
+<!-- Chapter#09 -->
+    <li id="li">
+      <a href="">Chapter 9: Introducing CSS</a>
+      <ol class="hide">
+        <li>What CSS does</li>
+        <li>How CSS works</li>
+        <li>Rules, properties, and values</li>
+      </ol>
+    </li>
+
+<!-- Chapter#10 -->
+    <li id="li">
+      <a href="">Chapter 10: Color</a>
+      <ol class="hide">
+        <li>How to specify colors</li>
+        <li>Color terminology and contrast</li>
+        <li>Background color</li>
+      </ol>
+    </li>
+
+  </ul>
+
+  </h1>
+</body>
+
+</html>
